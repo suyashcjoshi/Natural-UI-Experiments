@@ -7,7 +7,7 @@ import webbrowser as web
 import tkinter as tk
 
 class NUI:
-    # Class methods here
+
     def __init__(self):
         self.speech_recognizer = sr.Recognizer()
         self.hand_recognizer = mediapipe.solutions.hands.Hands()
